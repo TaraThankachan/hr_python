@@ -1,0 +1,11 @@
+#Write a program to print 1-N natural numbers without newline.
+
+r=int(input('Enter the range\n'))
+i=1
+while i<=r:
+    print(i,end=' ')
+    i+=1
+        or
+r=int(input('Enter the range\n'))
+for i in range(1,r+1):
+    print(i,end=' ')
