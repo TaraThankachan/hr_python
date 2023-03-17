@@ -1,0 +1,16 @@
+#Write a Program to accept name and 3 subject marks of a student and print the Result as Passed or Failed or Failed in Subject(s).
+
+
+name=input('Enter Name:\n')
+s1=int(input('Enter Subject1 marks:\n'))
+s2=int(input('Enter Subject2 marks:\n'))
+s3=int(input('Enter Subject3 marks:\n'))
+avg=(s1+s2+s3)/3
+if avg>=40:
+    if s1>=40 and s2>=40 and s3>=40:
+        print(f'Congratulation {name} you passed the exam')
+    else:
+        print(f'Arun you Failed in subject(s)')
+else:
+    print(f'{name} you Failed')
+

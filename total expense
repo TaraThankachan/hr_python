@@ -1,0 +1,8 @@
+#While purchasing certain items, a discount of 10% is offered if the quantity purchased is more than and equal to 100. If quantity and price per item are input through the keyboard, write a program to calculate the total expenses. Using simple if statement
+
+
+p=int(input('Enter the price:\n'))
+q=int(input('Enter the quantity:\n'))
+dis=p*q
+v=dis-(dis*0.1) if q>=100 else dis
+print(f'Total amount to be paid: {v:.1f}')
