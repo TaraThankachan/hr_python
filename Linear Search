@@ -1,0 +1,10 @@
+##Write a ‘Python’ program to accept list of elements and key element from user and perform linear search, print element found along with its position or element Not found.
+
+x= list(map(int,input('Enter the list:\n').split()))
+k= int(input('Enter Key:\n'))
+for i in range(0,len(x)):
+    if x[i]==k:
+        print(f'Element {k} FOUND at position {i+1}')
+        break
+else:
+    print(f'Element {k} NOT FOUND')
