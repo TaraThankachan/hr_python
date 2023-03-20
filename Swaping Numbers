@@ -1,0 +1,10 @@
+#Swaping NUmbers
+
+n1=int(input())
+n2=int(input())
+print(f'Before swapping:\nnum1 is: {n1} and num2 is: {n2}')
+temp=n1
+n1=n2
+n2=temp
+print(f'After swapping:\nnum1 is: {n1} and num2 is: {n2} ')
+
