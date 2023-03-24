@@ -1,0 +1,11 @@
+Write a program that asks the user to enter a string and exchange the first and last chars of a string and print.
+
+Sample I/O:
+
+Enter a string: 
+Hello World
+Output= dello WorlH
+
+
+s=input('Enter a string:\n')
+print(f'Output=',s[-1]+s[1:-1]+s[0])
