@@ -1,0 +1,14 @@
+#Write a program to remove the char of odd index value in a string.
+
+Sample I/O:
+Enter the string:
+hello
+
+Output= hlo
+
+x=input('Enter the string:\n')
+result=''
+for i in range(0,len(x)):
+    if i%2==0:
+        result=result+x[i]
+print(f'Output={result}')
