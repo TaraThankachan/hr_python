@@ -1,0 +1,16 @@
+#Write a program to take two strings and check if the two strings are anagram or not.
+
+Two words are anagrams of one another if their letters can be rearranged to form the other word. using all the original letters exactly once
+
+str1=input('Enter strings\n')
+str2=input()
+str1=str1.lower()
+str2=str2.lower()
+ # sort the strings
+sorted_str1 = sorted(str1)
+sorted_str2 = sorted(str2)
+# if sorted char arrays are same
+if(sorted_str1 == sorted_str2):
+        print('Strings are anagram')
+else:
+        print('Strings are Not anagram')

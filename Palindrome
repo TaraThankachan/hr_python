@@ -1,0 +1,17 @@
+#Palindrome
+
+x1=input('Enter a string:\n')
+x2=input('Enter a string: \n')
+newx1=x1.casefold() ##makes it suitable for caseless comparison
+newx2=x2.casefold()
+reverse_x1=reversed(newx1)## reverse the string
+reverse_x2=reversed(newx2)
+if list(newx1)==list(reverse_x1):## checks if the string is equal to its reverse
+    print(f'case1: \n{x1} is palindrome')
+else:
+    print(f'case1:\n{x1} is not palindrome')
+if list(newx2)==list(reverse_x2):
+    print(f'\ncase2: \n{x2} is palindrome')
+    
+else:
+    print(f'\ncase2: \n{x2} is not palindrome')

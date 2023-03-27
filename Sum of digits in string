@@ -1,0 +1,15 @@
+#Write a program to find the sum of digits of a given string.
+
+Sample I/O:
+
+Enter a string: 
+123ab4c5d
+Sum=15
+
+s=input('Enter a string: \n')
+sum=0
+for i in s:
+    if i.isdigit()==True:
+        y=int(i)
+        sum=sum+y
+print(f'Sum={sum}')
