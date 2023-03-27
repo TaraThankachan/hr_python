@@ -1,0 +1,13 @@
+#Write a program to that removes all common punctuations.
+
+Sample I/O:
+
+Enter a string: 
+(Hello-World.)!
+Output= HelloWorld
+
+
+import string
+s=input('Enter a string:\n')
+new_s=s.translate(str.maketrans('','',string.punctuation))
+print(f'Output= {new_s}')
